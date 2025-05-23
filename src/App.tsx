@@ -15,26 +15,21 @@ function App() {
     <>
       <section id="landing">
         <div id="title">
-          <h1>Hello, I'm </h1>
-          <div style={{ display: "inline" }}>
-            <h1 style={{ display: "inline" }} id="name">Raymond</h1>
-            <h1 style={{ display: "inline" }}>!</h1>
-          </ div>
-        </div>
-        <div id="snippet">
-          <p>I am a </p>
-          <div className="words">
-            <span className='titlespan'>Programmer</span>
-            <span className='titlespan'>Violinist</span>
-            <span className='titlespan'>Game Dev</span>
-            <span className='titlespan'>Violinist</span>
-            <span className='titlespan'>Programmer</span>
+          <h1>Raymond Zhang</h1>
+          <h2>Computer Science Student | Machine Learning & Full-Stack Developer</h2>
+          <p className="sub-headline">
+            Passionate about building intelligent solutions and innovative web applications. Currently studying at the University of British Columbia, expecting to graduate in May 2027.
+          </p>
+          <div className="cta-buttons">
+            <a href="#projects">
+              <button className="cta-button primary">View My Projects</button>
+            </a>
+            <a href="#contact">
+              <button className="cta-button secondary">Get In Touch</button>
+            </a>
           </div>
         </div>
         <WalleScene />
-        <a href='mailto:Zhangraymond382@gmail.com'>
-          <button id="contact">Contact Me</button>
-        </a>
       </section>
       <section className="standardreact">
         <div className='horizontallink'>
@@ -43,12 +38,14 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
           <div>
-            <p> Using code to build solutions is my goal as a programmer.
-              As a lover of both software and hardware, many of my projetcs involve mixing these two aspects of design. 
-              From making my own CAD models, to making my own circuit boards and programming them, I enjoy all parts of the design process. 
-              Even the WallE rendered above was designed by me in CAD from an old project and ported into a mesh with three.js! 
-              Laslty, I absolutely adore game design, so if you ever have an idea you would like to share or
-              would like to compete in a Game Jam with me, I would love to connect with you! 
+            <p>
+              I am Raymond Zhang, a Computer Science student at the University of British Columbia, expecting to graduate in May 2027. My passion lies in machine learning and its real-world applications, particularly in agricultural technology, where I've contributed to projects like UBC Agrobot and disease tracking systems.
+            </p>
+            <p>
+              As a full-stack developer, I've built platforms like ImageHub, demonstrating my ability to create scalable and user-friendly applications. My experience in game development and UI/UX design is showcased through my work on Adventure Piece (Roblox), which has garnered over 2.2M player visits.
+            </p>
+            <p>
+              I thrive in collaborative environments and have extensive experience working with Agile methodologies. My technical expertise spans across Python, JavaScript/TypeScript, C++, Java, TensorFlow, PyTorch, React, Node.js, and MongoDB, allowing me to tackle diverse technical challenges.
             </p>
             <img src={selfie} alt='Raymond'></img>
           </div>
@@ -90,10 +87,24 @@ function App() {
       </section>
       <div className='footerwrapper'>
         <div id="footer">
-          <h2>Come chat with me!</h2>
-          <a href='mailto:Zhangraymond382@gmail.com'>
-            <button id="contact">Contact Me</button>
-          </a>
+          <h2>Get In Touch</h2>
+          <div className="social-links">
+            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+              <button className="social-button">LinkedIn</button>
+            </a>
+            <a href="https://github.com/Rzhan16" target="_blank" rel="noopener noreferrer">
+              <button className="social-button">GitHub</button>
+            </a>
+            <a href='mailto:Zhangraymond382@gmail.com'>
+              <button className="social-button">Email</button>
+            </a>
+          </div>
+          <form className="contact-form">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" className="submit-button">Send Message</button>
+          </form>
           <span>Website made by Raymond Zhang 2024 <br />
             Zhangraymond382@gmail.com</span>
         </div>

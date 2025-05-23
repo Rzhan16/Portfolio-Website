@@ -13,34 +13,53 @@ export default function Experience() {
             aria-controls="panel1-content"
             id="accordianheader"
           >
-            <div>CChan Project — Stock Price Analysis</div>
-            <div className='date'>July 2024 – Present</div>
+            <div>Machine Learning Lead — UBC Agrobot</div>
+            <div className='date'>May 2024 – Present</div>
           </AccordionSummary>
           <AccordionDetails id="accordianbody">
-          <h4>Ontario, Ottawa</h4>
-          <p>Python, CChan Framework, Pandas, Matplotlib</p>
+            <h4>Vancouver, BC</h4>
             <ul>
-                <li>Collaborated with two PhD researchers to develop an open-source CChan framework for advanced stock price analysis, supporting morphological and dynamic trading signals.</li>
-                <li>Optimized settings like bi strict, divergence rate, and zs algo, resulting in a 25% improvement in market trend accuracy and actionable insights.</li>
-                <li>Implemented visualization features including MACD and trend line plotting, enhancing data clarity and user interaction.</li>
+                <li>Leading a team of 10+ in developing ML models for agriculture (92% accuracy in grape leaf disease tracking)</li>
+                <li>Implemented Agile methodologies (20% reduction in delivery timelines)</li>
+                <li>Spearheaded CNN development (TensorFlow, Python) for disease tracking</li>
             </ul>
           </AccordionDetails>
         </Accordion>
+
         <Accordion id='accordian'>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2-content"
             id="accordianheader"
           >
-            <div>Game Animator</div>
+            <div>Machine Learning Engineer — UBC Agrobot</div>
+            <div className='date'>Sep 2023 – May 2024</div>
+          </AccordionSummary>
+          <AccordionDetails id="accordianbody">
+            <h4>Vancouver, BC</h4>
+            <ul>
+                <li>Developed a CNN model for grape leaf disease classification (15% robustness improvement)</li>
+                <li>Used data augmentation for lighting/shade variations</li>
+                <li>Collaborated with cross-functional teams</li>
+            </ul>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion id='accordian'>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel3-content"
+            id="accordianheader"
+          >
+            <div>Game Animator and UI/UX Designer — Adventure Piece (Roblox)</div>
             <div className='date'>May 2022 – Sep 2023</div>
           </AccordionSummary>
           <AccordionDetails id="accordianbody">
-          <h4>Adventure Piece (Roblox), Remote</h4>
+            <h4>Remote Work</h4>
             <ul>
-                <li>Engineered advanced fighting style animations using Lua scripting in Roblox Studio, significantly enhancing combat mechanics for Adventure Piece, a game with more than 2.2 million player visits.</li>
-                <li>Collaborated with a cross-functional team of developers and artists to seamlessly integrate animations, resulting in a 25% increase in player engagement and positive game reviews.</li>
-                <li>Optimized animation performance through rigorous A/B testing and iterative refinements, achieving a 30% reduction in lag and delivering an immersive and responsive gaming experience.</li>
+                <li>Designed and optimized 10+ UI/UX elements (Lua scripting), increasing player engagement by 25% (2.2M+ visits)</li>
+                <li>Developed advanced character animations, reducing lag by 30%</li>
+                <li>Collaborated with a cross-functional team</li>
             </ul>
           </AccordionDetails>
         </Accordion>

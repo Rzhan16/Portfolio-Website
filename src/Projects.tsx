@@ -43,31 +43,40 @@ export function Projects() {
     const data: Details[] = [
       {
         title: "ImageHub",
-        hook: "Share Images like a Pro!",
+        hook: "Full-stack Image Sharing Platform",
         tech: "React | Node.js | Express.js | MongoDB",
-        overlaytitle: "Imagehub",
-        desc: `ImageHub is a comprehensive and robust full-stack image-sharing platform designed to empower users with a seamless experience for uploading, managing, and sharing images online. This platform allows users to easily create accounts, authenticate securely, and enjoy uninterrupted access to their personalized image galleries.`,
-        link: `https://github.com/Rzhan16/ImageHub`,
+        overlaytitle: "ImageHub",
+        desc: "A full-stack image-sharing platform built with the MERN stack, featuring user authentication and image uploads via REST APIs. Designed custom hooks for state management and ensured scalable data storage with MongoDB.",
+        link: "https://github.com/Rzhan16/ImageHub",
         img: Image
       },
       {
         title: "UniBudget",
-        hook: "Take Control of Your Finances",
-        tech: "React | Vite | JavaScript",
+        hook: "Budget Management Application",
+        tech: "React | Vite | JavaScript | Local Storage | React Router DOM",
         overlaytitle: "UniBudget",
-        desc: `UniBudget is an advanced budget management application built using React and Vite. This application empowers users to create and manage accounts, set up multiple budgets, track expenses, and visualize their financial data effortlessly. UniBudget offers functionalities to delete budgets, expenses, and accounts with ease, ensuring seamless budget management.`,
-        link: `https://github.com/Rzhan16/UniBudget`,
+        desc: "A budget management application developed with React and Vite. It allows users to manage accounts, budgets, and expenses through a user-friendly interface, with data persistence using local storage and seamless navigation via React Router DOM.",
+        link: "https://github.com/Rzhan16/UniBudget",
         img: Uni
       },
       {
-        title: "Breast Cancer Prediction",
-        hook: "Predicting Breast Cancer with Precision",
-        tech: "Python | Scikit-learn | SMOTE",
-        overlaytitle: "Breast Cancer Prediction",
-        desc: `Leverage cutting-edge machine learning to enhance breast cancer detection and prognosis. Our Breast Cancer Prediction Model employs advanced techniques in Python and Scikit-learn, coupled with SMOTE for balanced data handling. Explore how this model offers high-accuracy predictions using the comprehensive Sklearn breast cancer dataset.`,
-        link: `https://github.com/Rzhan16/breast-cancer-prediction`,
+        title: "Multi-Source Stock Sentiment Dashboard",
+        hook: "Real-time Stock Sentiment Analysis",
+        tech: "FastAPI | Celery | Redis | React/Vite | TypeScript | VADER | TF-IDF | Random Forest",
+        overlaytitle: "Stock Sentiment Dashboard",
+        desc: "Architected a micro-service stack that streams sentiment snapshots (from Reddit, Twitter, News) to a React/Vite frontend with sub-second latency. Uses VADER and a custom TF-IDF + Random Forest booster for sentiment analysis, overlaying trends on OHLC price data.",
+        link: "https://github.com/Rzhan16/Multi-Source-Stock-Sentiment-Dashboard",
         img: Breast
       },
+      {
+        title: "Buffett Screener",
+        hook: "Investment Screening Tool",
+        tech: "Python | Streamlit | Pandas | yfinance",
+        overlaytitle: "Buffett Screener",
+        desc: "A financial screening tool inspired by Warren Buffett's investment strategies, designed to analyze companies and identify potentially undervalued stocks based on fundamental financial metrics.",
+        link: "https://github.com/Rzhan16/buffett_screener.git",
+        img: Breast
+      }
     ];
   
     const listofDetails = data.map((d) => <div key={d.title}>
