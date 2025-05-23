@@ -215,22 +215,23 @@
       align-items: center;
       justify-content: center;
       border-radius: 1.5rem;
-  
-      div {
-        margin: 0.1rem;
-        padding: 0.2rem;
-      }
-      .skillBoxes {
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 1.3rem;
-        border-radius: 0.5rem;
-        background-color: var(--darkgrey);
-        line-height: 0rem;
-        padding: 1rem;
-        margin: 0.1rem;
-      }
+    }
+
+    #skill div {
+      margin: 0.1rem;
+      padding: 0.2rem;
+    }
+
+    .skillBoxes {
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 1.3rem;
+      border-radius: 0.5rem;
+      background-color: var(--darkgrey);
+      line-height: 0rem;
+      padding: 1rem;
+      margin: 0.1rem;
     }
   }
  
